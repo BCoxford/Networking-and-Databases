@@ -1,0 +1,258 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:0.75em;
+}
+ul {
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #162431;
+}
+
+li {
+    float: left;
+}
+
+.active {
+    background-color: #63a3e0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#link a:hover {
+    background-color: #63a3e0;
+}
+h1 {
+    margin-left: 5px;
+}
+.navBar {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    background-color: #FFFFFF;
+}
+.navBar li:first-child {
+    float: left;
+    width: 20%;
+    margin-left: 0%;
+}
+.navBar li {
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+}
+.navBar a {
+    display: block;
+    font-size: 1.25em;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+    height:10vh;
+    text-decoration: none;
+    background-color: #162431;
+}
+.navBar a:hover {
+    background-color: #63a3e0;
+}
+label {
+    font-weight:bold;
+    width:100px;
+    font-size:12px;
+}
+input[type=submit] {
+    background-color: #162431;
+    color: #FFFFFF;
+    border-width:0px;
+    border:none;
+    padding:3px;
+}
+input[type=submit]:hover {
+    background-color: #63a3e0;
+}
+.box {
+    border:#162431 solid 1px;
+    text-align: center;
+}
+
+.heading {
+    background-color: #162431;
+    color:#FFFFFF; 
+    padding:5px;
+}
+.centered {
+    margin-top:20vh; 
+    width:250px; 
+    border: solid 1px #162431;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th input[type=submit] {
+    padding: 8px;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(1) {
+    background-color: #162431;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #2e4f66;
+    color: white;
+}
+
+.searchField {
+    float:left;
+    border-radius: 5px;
+    margin-left: 20px;
+    border-width:0px;
+    border:none;
+    text-align:center;
+}
+.searchField:first-child {
+    float:left;
+    border-radius: 5px;
+    border-width:0px;
+    border:none;
+    text-align:center;
+}
+.centerBoxes {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #162431;
+}
+.updateResults {
+    display: flex;
+    justify-content: center;
+}
+
+.resultField {
+    display: block;
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.updateResults input[type=submit] {
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.updateResults input[type=button] {
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.updateResults form {
+    width: 50vw;
+}
+
+.backButton {
+    background-color: #162431;
+    color: #FFFFFF;
+    border-width:0px;
+    border:none;
+    padding:3px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.backButton:hover {
+    background-color: #63a3e0;
+}
+
+.updateResults p {
+    background-color: #162431;
+    color: white;
+    text-align: center;
+    padding:5px;
+    margin-bottom:0;
+}
+
+.updateResults a:first-child {
+    display: block;
+    text-align: center;
+    padding:5px;
+}
+
+#studentHide {
+    display: none;
+}
+
+#staffHide {
+    display: none;
+}
+
+#adviserHide {
+    display: none;
+}
+
+#contactHide {
+    display: none;
+}
+
+#studentShow {
+    display: block;
+}
+
+#staffShow {
+    display: block;
+}
+
+#contactShow {
+    display: block;
+}
+
+#adviserShow {
+    display: block;
+}
+.print {
+    margin-left: 30vw;
+    width: 40vw;
+    background-color: #162431;
+    color: white;
+    border: none;
+    padding:5px;
+    margin-top:5px;
+    border-width: 0;
+}
+
+@media print {
+    .noPrint {
+        display: none;
+    }
+}
